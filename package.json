@@ -1,0 +1,6 @@
+{
+  "name": "@tribes-ui/monorepo",
+  "scripts": {
+    "dev": "pnpm -r --parallel --filter=./packages/* run dev"
+  }
+}
