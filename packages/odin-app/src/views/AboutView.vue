@@ -1,11 +1,13 @@
 <template>
     <div class="about">
         <h1>This is an about page</h1>
+        <OButton class="text-white">hola</OButton>
+        <OInput></OInput>
     </div>
 </template>
 
 <script setup lang="ts">
-import { TButton } from '@odin/core';
+import { OButton, OInput } from '@odin/core';
 </script>
 <style>
 @media (min-width: 1024px) {

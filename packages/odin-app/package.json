@@ -10,7 +10,7 @@
         "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
     },
     "dependencies": {
-        "@odin/core": "^0.0.1",
+        "@odin/core": "link:../odin-core",
         "pinia": "^2.0.13",
         "vue": "^3.2.33",
         "vue-router": "^4.0.14"
