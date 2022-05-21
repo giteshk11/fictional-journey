@@ -2,9 +2,13 @@ lockfileVersion: 5.3
 
 importers:
 
-  packages/tribes-app:
+  .:
+    specifiers: {}
+
+  packages/odin-app:
     specifiers:
       '@rushstack/eslint-patch': ^1.1.0
+      '@odin/core': ^0.0.1
       '@types/jsdom': ^16.2.14
       '@types/node': ^16.11.27
       '@vitejs/plugin-vue': ^2.3.1
@@ -45,7 +49,7 @@ importers:
       vitest: 0.9.4_jsdom@19.0.0
       vue-tsc: 0.34.15_typescript@4.6.4
 
-  packages/tribes-core:
+  packages/odin-core:
     specifiers:
       '@rushstack/eslint-patch': ^1.1.0
       '@types/jsdom': ^16.2.14
